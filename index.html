@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <!-- Grab Favicon from Google (might be unsupported in the future) -->
+    <!-- <link
+      rel="icon"
+      type="image/png"
+      href="https://www.google.com/s2/u/0/favicons?domain=heist.com" /> -->
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="scrollbar.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <title>Developer Portfolio</title>
+  </head>
+  <body>
+      <!-- Navigation -->
+      <div class="nav-wrapper">
+        <div class="menu-icon" onclick="toggleMenu()">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+        <nav id="nav">
+          <ul>
+            <li><a href="#home" onclick="hideMenu()">Home</a></li>
+            <li><a href="#about" onclick="hideMenu()">About</a></li>
+            <li><a href="#projects" onclick="hideMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="hideMenu()">Contact</a></li>
+          </ul>
+        </nav>
+      </div> 
+      
+      <!-- Main Container -->
+      <main class="main-container">
+        <!-- Home Section -->
+         <section id="home">
+          <div class="slideshow">
+            <img src="img/slideshow/cyberpunk1.jpg" alt="cyberpunk futuristic city image" class="slide acive">
+            <img src="img/slideshow/cyberpunk2.jpg" alt="cyberpunk futuristic city image" class="slide">
+            <img src="img/slideshow/cyberpunk3.jpg" alt="cyberpunk futuristic city image" class="slide">
+            <img src="img/slideshow/cyberpunk4.jpg" alt="cyberpunk futuristic city image" class="slide">
+            <img src="img/slideshow/cyberpunk5.jpg" alt="cyberpunk futuristic city image" class="slide">
+          </div>
+          <div class="page-title">
+            <h1>Byrne Consulting</h1>
+          </div>
+          <div class="mouse">
+
+          </div>
+         </section>
+
+         <!-- About Section -->
+          <section id="about">
+            <div class="about-container">
+              <div class="section-title">
+                <h2>About</h2>
+              </div>
+              <div class="about-grid">
+                <div class="box1">
+                  <div class="text-box">
+                    <h3>Zero to Mastery</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam error esse ullam, culpa, asperiores quisquam totam reprehenderit ipsum sequi dignissimos possimus voluptatem incidunt amet iure deleniti, tempore ab. Ad, ipsa?
+
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, qui culpa debitis mollitia dolorum corporis fuga, blanditiis doloribus quisquam facere error officia sapiente beatae provident. Debitis illum libero perspiciatis repellendus.
+                    </p>
+                  </div>
+                </div>
+                <div class="icon-box box2">
+                  <i class="fa-solid fa-code"></i>
+                  <h3>Quality Code</h3>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                </div>
+                <div class="icon-box box3">
+                  <i class="fa-solid fa-wand-magic-sparkles"></i>
+                  <h3>CSS Wizard</h3>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                </div>
+                <div class="icon-box box4">
+                  <i class="fa-solid fa-trophy"></i>
+                  <h3>Award Winning</h3>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                </div>
+                <div class="icon-box box5">
+                  <i class="fa-solid fa-infinity"></i>
+                  <h3>Infinite Ideas</h3>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                </div>
+                <div class="box6">
+                  <div class="text-box">
+                    <h3>Zero to Mastery</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem provident facere amet! Voluptas mollitia eos natus eaque explicabo sunt odit nam officiis, voluptatum, tempore vel ex? Officia doloribus in odio?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, corrupti! Ut dignissimos incidunt suscipit assumenda numquam quasi quibusdam, ipsa autem tenetur, pariatur minima itaque fuga inventore? Blanditiis harum tempora doloremque?
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </section>
+
+          <!-- Projects Section -->
+           <section id="projects">
+            <div class="projects-container">
+              <div class="section-title">
+                <h2>Projects</h2>
+              </div>
+              <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="grid-item">
+                  <div class="mockup">
+                    <a href="" target="_blank">
+                      <img src="img/projects/calculator.png" alt="Calculator Project">
+                    </a>
+                  </div>
+                  <div class="link-container">
+                    <a href="https://github.com/JacintoDesign/calculator" class="github-link" target="_blank">Github</a>
+                    <a href="https://jacintodesign.github.io/calculator/" class="live-link" target="_blank">Live Project</a>
+                  </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="grid-item">
+                  <div class="mockup">
+                    <a href="" target="_blank">
+                      <img src="img/projects/bookmark.png" alt="Bookmark Project">
+                    </a>
+                  </div>
+                  <div class="link-container">
+                    <a href="https://github.com/JacintoDesign/bookmark-app" class="github-link" target="_blank">Github</a>
+                    <a href="jacintodesign.github.io/bookmark-app/" class="live-link" target="_blank">Live Project</a>
+                  </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="grid-item">
+                  <div class="mockup">
+                    <a href="" target="_blank">
+                      <img src="img/projects/dragdrop.png" alt="Kanban Board Project">
+                    </a>
+                  </div>
+                  <div class="link-container">
+                    <a href="https://github.com/JacintoDesign/drag-and-drop" class="github-link" target="_blank">Github</a>
+                    <a href="https://jacintodesign.github.io/drag-and-drop/" class="live-link" target="_blank">Live Project</a>
+                  </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="grid-item">
+                  <div class="mockup">
+                    <a href="" target="_blank">
+                      <img src="img/projects/joke.png" alt="Joke Project">
+                    </a>
+                  </div>
+                  <div class="link-container">
+                    <a href="https://github.com/JacintoDesign/joke-teller" class="github-link" target="_blank">Github</a>
+                    <a href="https://jacintodesign.github.io/joke-teller/" class="live-link" target="_blank">Live Project</a>
+                  </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="grid-item">
+                  <div class="mockup">
+                    <a href="" target="_blank">
+                      <img src="img/projects/music.png" alt="Music Player Project">
+                    </a>
+                  </div>
+                  <div class="link-container">
+                    <a href="https://github.com/JacintoDesign/music-player" class="github-link" target="_blank">Github</a>
+                    <a href="https://jacintodesign.github.io/music-player" class="live-link" target="_blank">Live Project</a>
+                  </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="grid-item">
+                  <div class="mockup">
+                    <a href="" target="_blank">
+                      <img src="img/projects/quote.png" alt="Quotes Project">
+                    </a>
+                  </div>
+                  <div class="link-container">
+                    <a href="https://github.com/JacintoDesign/quote-generator" class="github-link" target="_blank">Github</a>
+                    <a href="https://jacintodesign.github.io/quote-generator/" class="live-link" target="_blank">Live Project</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+           </section>
+
+      <!-- Contact Section -->
+      <section id="contact">
+        <div class="contact-container">
+          <div class="section-title">
+            <h2>Contact</h2>
+          </div>
+          <!-- Banner -->
+           <a href="mailto:email@example.com" class="banner-link">
+            <div class="banner">
+              <div id="bannerContent" class="banner-content"></div>
+            </div>
+           </a>
+        </div>
+
+        <!-- Footer -->
+         <footer>
+          <!-- Social Media -->
+          <div class="social-media-icons">
+            <i class="fa-brands fa-facebook" title="Facebook"></i>
+            <i class="fa-brands fa-instagram" title="Instagram"></i>
+            <i class="fa-brands fa-x-twitter" title="Twitter"></i>
+            <i class="fa-brands fa-youtube" title="Youtube"></i>
+            <i class="fa-brands fa-github" title="Github"></i>
+          </div>
+          <!-- Copywrite -->
+          <small>&copy; 2024 Byrne Consulting. All rights reserved.</small>
+         </footer>
+
+      </section>
+      </main>
+
+
+    </main>
+    <!-- Script  -->
+    <script
+      src="https://kit.fontawesome.com/a87ec99080.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
